@@ -1,3 +1,10 @@
-<h1>
-  {{title}}
-</h1>
+<div class="ui stackable menu">
+  <div class="item">
+    <a routerLink="/" routerLinkActive="active">
+      <img class="ui medium image" src="/assets/logo_mobylis.png">
+    </a>
+  </div>
+  <a class="item" routerLink="/health" routerLinkActive="active">Santé</a>
+  <a class="item" routerLink="/prestation" routerLinkActive="active">Prestation</a>
+</div>
+<router-outlet></router-outlet>
