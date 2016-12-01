@@ -1,10 +1,13 @@
 <div class="ui stackable menu">
-  <div class="item">
-    <a routerLink="/" routerLinkActive="active">
-      <img class="ui medium image" src="/assets/logo_mobylis.png">
+  <div class="item" >
+    <a routerLink="/" routerLinkActive="active" style="width: 100%">
+        <img class="ui medium centered image" src="/assets/logo_mobylis.png">
     </a>
   </div>
-  <a class="item" routerLink="/health" routerLinkActive="active">Santé</a>
-  <a class="item" routerLink="/prestation" routerLinkActive="active">Prestation</a>
+  <a class="item ui header" routerLink="/health" routerLinkActive="active">Santé</a>
+  <a class="item ui header" routerLink="/prestation" routerLinkActive="active">Prestation</a>
+  <a class="item right ui header" routerLink="/contact" routerLinkActive="active">Nous Contacter</a>
 </div>
 <router-outlet></router-outlet>
+
+

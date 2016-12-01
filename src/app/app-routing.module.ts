@@ -1,13 +1,14 @@
 import { NgModule }             from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {HomeComponent} from './home/home.component';
-import {PrestationComponent} from './+prestation/prestation.component';
+import {HomeComponent} from './home';
+import {PrestationComponent} from './+prestation';
 
 
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'prestation', component: PrestationComponent },
-  { path: 'health', loadChildren: './+health/health.module#HealthModule' }
+  { path: 'health', loadChildren: './+health/health.module#HealthModule'},
+  { path: 'contact', loadChildren: './+contact/contact.module#ContactModule'}
 ];
 
 @NgModule({

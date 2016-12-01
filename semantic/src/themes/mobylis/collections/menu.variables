@@ -1,0 +1,12 @@
+// Remove the border radius at each corner
+@borderRadius: 0;
+@border: 0;
+
+// Set space bellow menu
+@margin: 0;
+
+// Keep bold when item selected
+@activeItemFontWeight: bold;
+
+
+@itemHorizontalPadding: 3em;
