@@ -7,3 +7,12 @@
 @computerBreakpoint          : 1000px;
 @largeMonitorBreakpoint      : 1200px;
 @widescreenMonitorBreakpoint : 1920px;
+
+/*-------------------
+        Page
+--------------------*/
+@pageBackground      : whitesmoke;
+@pageOverflowX       : hidden;
+
+@lineHeight          : 1.4285em;
+@textColor           : rgba(0, 0, 0, 0.87);

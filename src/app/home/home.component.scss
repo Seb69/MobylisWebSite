@@ -1,76 +1,42 @@
-img.bg {
-  position: fixed;
-  top: 5em;
-  left: 0;
-  min-height: 35em;
-  z-index: -2;
-}
-
-.blur {
-  height: 250px;
-  //width: 100%;
-  margin: -20px auto;
+#primary-image {
   z-index: -1;
-  position: relative;
-  filter: blur(10px);
-  -webkit-filter: blur(10px);
-  -moz-filter: blur(10px);
-  -o-filter: blur(10px);
-  -ms-filter: blur(10px);
-  filter: url(#blur);
-  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='10');
-  overflow: hidden;
+  max-height: 35em;
 }
 
-.blur:after {
-  content: '';
-  height: 100%;
-  background: rgba(255, 255, 255, .2);
+.containerImage {
   position: relative;
 }
 
-.widget {
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
-  height: 200px;
-  width: 40%;
-  min-width: 25em;
-  overflow: hidden;
-}
-
-.center {
+.text-box {
   position: absolute;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-
-/*  NOT REQUIRED  */
-
-.text {
-  height: 200px;
-  width: 340px;
-}
-
-.text h1 {
   text-align: center;
-  text-shadow: 1px 1px rgba(0, 0, 0, .1);
-  color: #ffffff;
-  margin-top: 1em;
-  font-family: 'Lora', serif;
-  font-weight: 700;
-  font-size: 38px;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
 }
 
-.text p {
-  text-align: center;
-  color: #ffffff;
-  text-shadow: 1px 1px rgba(0, 0, 0, .1);
-  margin-top: 0px;
-  font-family: 'Lato', serif;
-  font-weight: 400;
-  font-size: 22px;
+#slogan {
+  margin-top: 2em;
+  display: inline-block;
+
+  font-family: "Reem Kufi";
+  font-style: normal;
+  color: #FFF;
+  font-size: 4em;
+  font-size: 5vw;
+
+
+  padding-left: 1em;
+  padding-right: 1em;
+
+  min-font-size: 2vw;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.description-text {
+  font-family: "Reem Kufi";
+  font-style: bold;
+  color: #FFF;
+  font-size: 3em;
+  font-size: 3vw;
 }
