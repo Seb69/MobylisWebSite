@@ -20944,7 +20944,7 @@ ol.ui.horizontal.list li:before,
     Container
 ---------------*/
 
-@media only screen and (max-width: 969px) {
+@media only screen and (max-width: 999px) {
   .ui.menu > .ui.container {
     width: 100% !important;
     margin-left: 0em !important;
@@ -20952,7 +20952,7 @@ ol.ui.horizontal.list li:before,
   }
 }
 
-@media only screen and (min-width: 970px) {
+@media only screen and (min-width: 1000px) {
   .ui.menu:not(.secondary):not(.text):not(.tabular):not(.borderless) > .container > .item:not(.right):not(.borderless):first-child {
     border-left: 1px solid rgba(34, 36, 38, 0.1);
   }
@@ -21899,7 +21899,7 @@ Floated Menu / Item
     Stackable
 ---------------*/
 
-@media only screen and (max-width: 969px) {
+@media only screen and (max-width: 999px) {
   .ui.stackable.menu {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
