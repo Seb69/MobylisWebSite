@@ -9,4 +9,8 @@
 @activeItemFontWeight: bold;
 
 
-@itemHorizontalPadding: 3em;
+@itemHorizontalPadding: 1em;
+@itemVerticalPadding: 0.5em;
+
+
+@minHeight: @itemVerticalPadding;

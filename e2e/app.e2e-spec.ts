@@ -1,10 +1,10 @@
-import { MOBYLISPage } from './app.po';
+import { MobylisPage } from './app.po';
 
 describe('mobylis App', function() {
-  let page: MOBYLISPage;
+  let page: MobylisPage;
 
   beforeEach(() => {
-    page = new MOBYLISPage();
+    page = new MobylisPage();
   });
 
   it('should display message saying app works', () => {

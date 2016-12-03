@@ -1,6 +1,6 @@
 import { browser, element, by } from 'protractor';
 
-export class MOBYLISPage {
+export class MobylisPage {
   navigateTo() {
     return browser.get('/');
   }

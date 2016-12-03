@@ -1,10 +1,20 @@
+/*******************************
+             Grid
+*******************************/
 
+/* Inherited From Site */
+
+// @mobileBreakpoint
+// @tabletBreakpoint
+// @computerBreakpoint
+// @largeMonitorBreakpoint
+// @widescreenMonitorBreakpoint
 
 /*******************************
             Grid
 *******************************/
 
-@minWidth: 320px;
+@minWidth: 120px;
 
 @gutterWidth: 0rem;
 @rowSpacing: 0rem;
@@ -60,3 +70,5 @@
 @stackableGutter: @gutterWidth;
 @stackableMobileBorder: 1px solid @borderColor;
 @stackableInvertedMobileBorder: 1px solid @whiteBorderColor;
+
+
