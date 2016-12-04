@@ -1,7 +1,5 @@
 # Mobylis
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.22.
-
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
@@ -12,6 +10,11 @@ Run `ng generate component component-name` to generate a new component. You can 
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+Purifycss: Remove unused CSS: 
+`
+purifycss dist/styles.d7af49e0fb17f60987c8d265ddecef0b.bundle.css dist/main.f1ef5e7a49c451608178.bundle.js dist/vendor.775c209af0e23d3bf727.bundle.js --min --info --out dist/index.css
+`
 
 ## Running unit tests
 

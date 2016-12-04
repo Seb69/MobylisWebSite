@@ -1,9 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Aref+Ruqaa|Bungee|Reem+Kufi);
+@import url(https://fonts.googleapis.com/css?family=Reem+Kufi&subset=latin);
 
-a {
-  font-family: "Reem Kufi";
-  font-style: normal;
-}
 
 .fill-width {
   width: 100%;
@@ -27,7 +23,7 @@ a {
 }
 .footer-link a {
 
-  font-family: "Reem Kufi";
+  font-family: Reem Kufi;
   font-style: normal;
   color: #FFF;
   padding-left: 1.5em;
@@ -35,7 +31,9 @@ a {
   display: inline-block;
 
 }
-
+.menu-font a {
+  font-family: Reem Kufi;
+}
 .bottom {
   background-color: black;
   width: 100%;
