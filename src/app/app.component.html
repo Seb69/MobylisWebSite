@@ -1,36 +1,29 @@
 <div class="ui stackable menu menu-font">
-  <div class="item">
-    <a routerLink="/" routerLinkActive="active" class="fill-width">
-      <img class="ui medium centered image " src="/assets/logo_mobylis.png">
-    </a>
-  </div>
-  <a class="item ui header" routerLink="/health" routerLinkActive="active" >Ergo Santé</a>
+  <a routerLink="/" routerLinkActive="active" class="item" id="logo-background">
+    <img class="ui medium centered image " src="/assets/logo_mobylis.png">
+  </a>
+  <a class="item ui header" routerLink="/health" routerLinkActive="active">Ergo Santé</a>
   <a class="item ui header" routerLink="/prestation" routerLinkActive="active">Prestation</a>
   <a class="item right ui header" routerLink="/contact" routerLinkActive="active">Nous Contacter</a>
 </div>
+
 <router-outlet></router-outlet>
 
+<div id="footer-color">
+  <div class="ui two column container grid footer-link-font">
 
-<div id="footer">
-  <div class="ui two column container grid" >
-    <div class="column footer-column" >
-      <div class="parent-align-verticaly" style="height: 100%;width: 100%">
-        <div class="footer-link child-align-verticaly">
-          <a routerLink="/" routerLinkActive="active">Accueil</a> <br>
-          <a routerLink="/health" routerLinkActive="active">Ergo Santé</a><br>
-          <a routerLink="/prestation" routerLinkActive="active">Prestation</a><br>
-          <a routerLink="/contact" routerLinkActive="active">Nous Contacter</a>
-        </div>
-      </div>
+    <div class="column middle aligned " id="column-position">
+      <a routerLink="/" routerLinkActive="active">Accueil</a> <br>
+      <a routerLink="/health" routerLinkActive="active">Ergo Santé</a><br>
+      <a routerLink="/prestation" routerLinkActive="active">Prestations</a><br>
+      <a routerLink="/contact" routerLinkActive="active">Nous contacter</a>
     </div>
-    <div class="column footer-column" style="border-left: 0.1em solid #ffffff;">
-      <div class="parent-align-verticaly" style="height: 100%;width: 100%">
-        <div class="footer-link child-align-verticaly" >
-          <a routerLink="/" routerLinkActive="active" >Qui somme nous</a> <br>
-          <a routerLink="/legacy" routerLinkActive="active" >Mentions legales</a><br>
-        </div>
-      </div>
+
+    <div class="column middle aligned">
+      <a routerLink="/" routerLinkActive="active">Qui sommes nous</a> <br>
+      <a routerLink="/legacy" routerLinkActive="active">Mentions légales</a><br>
     </div>
+
   </div>
 </div>
 

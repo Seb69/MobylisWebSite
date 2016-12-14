@@ -1,39 +1,33 @@
 <div class="containerImage">
   <div class="text-box">
-    <p id="slogan">Votre Santé, nos bureaux</p>
+    <h1 id="slogan">Votre Santé, nos bureaux</h1>
   </div>
   <img class="ui fluid centered image" src="/assets/HAG-Futu-2.jpg" id="primary-image"/>
 </div>
 
 
-<div class="ui stackable two column grid">
-  <div class="column" style="background-color: white">
-    <img class="ui fluid image image-position" src="/assets/desk-position.jpg"/>
-  </div>
-  <div class="column" style="background-color: white">
-    <div class="parent-align-verticaly" style="height: 100%;width: 100%">
-      <h2 class="description child-align-verticaly" style="margin-bottom: 1em" >Ergo conception des postes de travail pour les entreprises</h2>
+<div *ngFor="let row of rows">
+
+  <div class="ui stackable two column grid">
+    <div class="column" style="background-color: white">
+      <img class="ui fluid image image-position" src="{{row.srcLeft}}"/>
+    </div>
+    <div class="column middle aligned">
+      <h2 class="description">{{row.textRight}}</h2>
     </div>
   </div>
 
-</div><div class="ui stackable two column grid">
-  <div class="column" style="background-color: white">
-    <div class="parent-align-verticaly" style="height: 100%;width: 100%">
-      <h2 class="description child-align-verticaly" >Ergo Santé : une gamme adaptée aux établissements de santé</h2>
+  <div class="ui stackable two column grid">
+    <div class="column middle aligned">
+      <h2 class="description">{{row.textLeft}}</h2>
+    </div>
+    <div class="column" style="background-color: white">
+      <img class="ui fluid image image-position" src="{{row.srcRight}}"/>
     </div>
   </div>
-  <div class="column" style="background-color: white">
-    <img class="ui fluid image image-position" src="/assets/ep.jpg"/>
-  </div>
+
 </div>
 
-<div class="ui stackable two column grid">
-  <div class="column" style="background-color: white">
-    <img class="ui fluid image image-position" src="/assets/table-ergo-technik .jpg"/>
-  </div>
-  <div class="column" style="background-color: white">
-    <div class="parent-align-verticaly" style="height: 100%;width: 100%">
-      <h2 class="description child-align-verticaly" style="margin-bottom: 1em">Du mobilier adapté aux personnes à mobilité réduite</h2>
-    </div>
-  </div>
-</div>
+
+
+

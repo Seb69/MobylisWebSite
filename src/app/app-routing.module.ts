@@ -12,10 +12,6 @@ const appRoutes: Routes = [
 ];
 
 @NgModule({
-  declarations: [
-    HomeComponent,
-    PrestationComponent
-  ],
   imports: [
     RouterModule.forRoot(appRoutes)
   ],

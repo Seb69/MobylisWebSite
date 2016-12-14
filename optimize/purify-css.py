@@ -4,9 +4,9 @@ import os
 listJS = [];
 listCSS = [];
 
-buildFolder = "dist/"
+buildFolder = "../dist/"
 
-for file in os.listdir("./dist"):
+for file in os.listdir(buildFolder):
 
   if file.endswith(".bundle.js"):
     listJS.append(buildFolder + file)
