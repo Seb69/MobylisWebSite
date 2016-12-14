@@ -7,8 +7,8 @@ import {PrestationComponent} from './+prestation';
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'prestation', component: PrestationComponent },
-  { path: 'health', loadChildren: './+health/health.module#HealthModule'},
-  // { path: 'contact', loadChildren: './+contact/contact.module#ContactModule'}
+  { path: 'accessories', loadChildren: './+accessories/accessories.module#AccessoriesModule'},
+  { path: 'seat', loadChildren: './+seat/seat.module#SeatModule'}
 ];
 
 @NgModule({

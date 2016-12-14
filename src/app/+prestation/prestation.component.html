@@ -1,7 +1,13 @@
-<p>
-  <!--prestation works!-->
-</p>
-
-<div>
-  <img src="assets/testlazy.jpg"/>
+<div *ngFor="let row of rows">
+  <div class="ui stackable three column grid">
+    <div class="column">
+      <img class="ui fluid image image-position" src="{{row.srcLeft}}"/>
+    </div>
+    <div class="column middle aligned text-position">
+      <h1 class="description">{{row.text}}</h1>
+    </div>
+    <div class="column">
+      <img class="ui fluid image image-position" src="{{row.srcRight}}"/>
+    </div>
+  </div>
 </div>
