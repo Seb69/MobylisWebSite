@@ -8,7 +8,8 @@ const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'prestation', component: PrestationComponent },
   { path: 'accessories', loadChildren: './+accessories/accessories.module#AccessoriesModule'},
-  { path: 'seat', loadChildren: './+seat/seat.module#SeatModule'}
+  { path: 'seat', loadChildren: './+seat/seat.module#SeatModule'},
+  { path: 'contact', loadChildren: './+contact/contact.module#ContactModule'}
 ];
 
 @NgModule({
