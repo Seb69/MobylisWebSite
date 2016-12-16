@@ -9,7 +9,8 @@ const appRoutes: Routes = [
   { path: 'prestation', component: PrestationComponent },
   { path: 'accessories', loadChildren: './+accessories/accessories.module#AccessoriesModule'},
   { path: 'seat', loadChildren: './+seat/seat.module#SeatModule'},
-  { path: 'contact', loadChildren: './+contact/contact.module#ContactModule'}
+  { path: 'contact', loadChildren: './+contact/contact.module#ContactModule'},
+  { path: 'mentionslegales', loadChildren: './+legacy/legacy.module#LegacyModule'}
 ];
 
 @NgModule({

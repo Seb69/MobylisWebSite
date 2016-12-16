@@ -4,23 +4,28 @@ import os
 listJS = [];
 listCSS = [];
 
-buildFolder = "../dist/"
+totalJS= '';
+
+
+buildFolder = "./dist/"
 
 for file in os.listdir(buildFolder):
 
-  if file.endswith(".bundle.js"):
+  # Retrieve all js files
+  if file.endswith(".js") :
     listJS.append(buildFolder + file)
 
+  # Retrieve all css file
   if file.endswith(".bundle.css"):
     listCSS.append(buildFolder + file)
 
+# Concat all js file
+for i, jsFile in enumerate(listJS):
+  totalJS = totalJS + " " + jsFile
 
-os.system("purifycss " +
+os.system("purifycss" + " " +
           listCSS[0] + " " +
-          listJS[0] + " " +
-          listJS[1] + " " +
-          listJS[2] + " " +
-          listJS[3] + " " +
+          totalJS + " " +
           "--min --info " +
           "--out " + listCSS[0])
 

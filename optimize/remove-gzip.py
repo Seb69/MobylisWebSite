@@ -3,7 +3,7 @@ import os
 
 fileGZIP = []
 
-buildFolder = "../dist/"
+buildFolder = "./dist/"
 
 for file in os.listdir(buildFolder):
 

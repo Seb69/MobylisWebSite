@@ -1,16 +1,17 @@
 @import '../../styles.scss';
 
-.text-position h1{
+.text-position h1 {
   text-align: center;
   @include primary-font-size(2.7em);
 
 }
 
-.white-back{
+.white-back {
   background-color: white;
   z-index: -1100;
 }
-.title-siege  {
+
+.title-siege {
   @include primary-font-size(2.8em);
   text-align: center;
 
@@ -35,6 +36,7 @@
 .top-space {
   height: 3em;
 }
+
 .desc-details {
   @include primary-font-size(1.2em);
   text-align: center;
@@ -42,7 +44,9 @@
   margin-right: 2em;
   margin-bottom: 2em;
 }
-
+.size-divider {
+  font-size: 1.5em;
+}
 .description {
   @include primary-font-size(2em);
 
@@ -50,10 +54,22 @@
 
   line-height: 1em;
 
+  display: block;
+  word-wrap: break-word;
+
   margin-left: 2em;
   margin-right: 2em;
   margin-top: 2em;
   margin-bottom: 2em;
+}
+
+.margin-bottom {
+  margin-bottom: 1em;
+
+}
+
+.margin-top {
+  margin-top: 1em;
 }
 
 .desc-three {

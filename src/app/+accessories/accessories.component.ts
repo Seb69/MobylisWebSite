@@ -10,7 +10,7 @@ export class AccessoriesComponent {
 
   rows: SingleRow[] = [
     {
-      src: "assets/souris-verticale.jpg",
+      src: "assets/evoluent.jpg",
       text: "Souris verticales : une position naturelle qui suit votre articulation",
 
     }

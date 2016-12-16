@@ -13,8 +13,8 @@ export class HomeComponent  {
     srcLeft: "assets/desk-position.jpg",
     textRight: "Ergo conception des postes de travail pour les entreprises",
 
-    srcRight: "/assets/ep.jpg",
-    textLeft: "Ergo Santé : une gamme adaptée aux établissements de santé",
+    srcRight: "/assets/sofi-mesh-banner.jpg",
+    textLeft: "Une large gamme de sièges de bureau ergonomique ",
 
   },
   {

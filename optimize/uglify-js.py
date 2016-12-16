@@ -3,7 +3,7 @@ import os
 
 vendorJS = [];
 
-buildFolder = "../dist/"
+buildFolder = "./dist/"
 
 for file in os.listdir(buildFolder):
 
