@@ -11,7 +11,7 @@ export class PrestationComponent  {
   rows: SideRow[] = [
     {
       srcLeft: "assets/chairs1.svg",
-      text: "Pour être sûr d'acheter le bon siège, nous vous proposons de l'essayer gratuitement pendant une semaine.",
+      text: "Avant d'acheter, essayez gratuitement nos sièges pendant une semaine.",
       srcRight: "assets/chairs2.svg",
 
     }
