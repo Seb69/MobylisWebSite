@@ -22,7 +22,7 @@ export class HomeComponent  {
     textRight: "Du mobilier adapté aux personnes à mobilité réduite",
 
     srcRight: "/assets/HAG-Futu-8.jpg",
-    textLeft: "Du mobilier d'entreprise robuste  ",
+    textLeft: "Du mobilier d'entreprise de fabrication française et européenne ",
 
   }
 ];
