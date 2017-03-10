@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import {SingleRow} from "../shared/single-row";
 
 @Component({
-  selector: 'accessories',
-  templateUrl: './accessories.component.html',
-  styleUrls: ['./accessories.component.scss']
+  selector: 'accessoires',
+  templateUrl: './accessoires.component.html',
+  styleUrls: ['./accessoires.component.scss']
 })
-export class AccessoriesComponent {
+export class AccessoiresComponent {
 
   rows: SingleRow[] = [
     {

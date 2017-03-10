@@ -7,8 +7,8 @@ import {PrestationComponent} from './+prestation';
 const appRoutes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'prestation', component: PrestationComponent },
-  { path: 'accessories', loadChildren: './+accessories/accessories.module#AccessoriesModule'},
-  { path: 'seat', loadChildren: './+seat/seat.module#SeatModule'},
+  { path: 'accessoires', loadChildren: './+accessoires/accessoires.module#AccessoiresModule'},
+  { path: 'siege', loadChildren: './+siege/siege.module#SiegeModule'},
   { path: 'table', loadChildren: './+table/table.module#TableModule'},
   { path: 'contact', loadChildren: './+contact/contact.module#ContactModule'},
   { path: 'mentionslegales', loadChildren: './+legacy/legacy.module#LegacyModule'}

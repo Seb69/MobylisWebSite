@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {SeatComponent} from "./seat.component";
+import {SiegeComponent} from "./siege.component";
 
 
 const routes: Routes = [
-  { path: '', component: SeatComponent},
+  { path: '', component: SiegeComponent},
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class SeatRoutingModule { }
+export class SiegeRoutingModule { }
